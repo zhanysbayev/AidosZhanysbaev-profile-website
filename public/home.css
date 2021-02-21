@@ -1,28 +1,51 @@
-html {
-    scroll-behavior: smooth;
-  }
 body{
-    margin: 0px;  
-    overflow: scroll;
+    margin: 0 auto;
+}
+.full{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://resi.ze-robot.com/dl/4k/4k-desktop-wallpaper.-1920%C3%971200.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 753px;
 }
 .header{
-    display: flex;
-    justify-content: space-around;
-    padding: 15px 40px 0px 680px;
-    align-items: center;
-    position: static;
-    top: 0px;
-    left: 500px; 
-    right: 0px;
-} 
+    text-align: right;
+    padding-top: 20px;
+}
 .header a{
-    text-decoration: none; 
-    padding: 5px 20px;
-    text-transform: uppercase;
-    font-size: 20px;
+    text-decoration: none;
     color: white;
+    font-size: 30px;
+    padding-right: 100px;
+}
+#home{
+    color: #f63;
+}
+#about:hover, #contact:hover{
+    color: #f63;
+}
+.center{
+    margin: 150px 0px 0 350px;
+    display: flex;
+    align-items: center;
+}
+.photo img{
+    width: 400px;
+    height: 360px;
+    border-radius: 50%;
+    margin-right: 40px;
+    box-shadow: 15px 15px 15px rgb(54, 54, 54);
+}
+.name h1{
+    color: #f63;
+    margin: 0;
+    font-size: 50px;
+    word-spacing: 10px;
+}
+.name h5{
+    color: white;
+    margin: 10px;
+    text-align: center;
+    font-size: 17px;
+}
 
-}
-.header #home:hover, #about:hover, #contact:hover{
-    color: aliceblue;
-}

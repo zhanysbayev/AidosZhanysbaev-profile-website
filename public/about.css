@@ -1,0 +1,58 @@
+body{
+    margin: 0 auto;
+}
+.full{
+    background-color: rgb(8, 9, 56);
+    height: 753px;
+}
+.header{
+    text-align: right;
+    padding-top: 20px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding-right: 100px;
+}
+#about{
+    color: #f63;
+}
+#home:hover, #contact:hover{
+    color: #f63;
+}
+.center1{
+    display: flex;
+    margin: 80px 300px 0 330px;
+}
+.center1 img{
+    width: 300px;
+    height: 500px;
+}
+.text{
+    margin-top: 80px;
+}
+.text h1{
+    margin: 0;
+    color: #f63;
+    font-size: 50px;
+}
+.text p{
+    margin: 0;
+    color: white;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.card{
+    display: flex;
+    box-shadow: 5px 4px 8px 5px rgba(255, 102, 51, 0.2), 10px 12px 20px 10px rgba(255, 102, 51, 0.19);
+    margin-top: 30px;
+    
+}
+.part1 p, .part2 p{
+    font-size: 15px;
+    margin: 15px;
+}
+.part1{
+    margin-right: 50px;
+}

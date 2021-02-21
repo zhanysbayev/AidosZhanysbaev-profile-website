@@ -1,0 +1,93 @@
+body{
+    margin: 0 auto;
+}
+.full{
+    background-color: rgb(8, 9, 56);
+    height: 753px;
+}
+.header{
+    text-align: right;
+    padding-top: 20px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding-right: 100px;
+    font-family: 'Playfair Display', serif;
+}
+#contact{
+    color: #f63;
+    text-decoration: none;
+}
+#home:hover, #about:hover{
+    color: #f63;
+    text-decoration: none;
+}
+.contact{
+    padding-top: 45px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Playfair Display', serif;
+}
+.hero_img{
+    background-image: url("https://www.eschoolnews.com/files/2020/01/coding-science.jpg");
+    height: 610px;
+    width: 100% ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.needs-validation{
+    position: absolute;
+    left: 30%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 510px;
+    padding: 20px 15px 15px 15px;
+    background-color: #fff;
+    height: 570px;
+}
+#shh2, #shp{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+#shh2{
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+#shp{
+    margin-bottom: 3%;
+    font-size: 18px;
+}
+label{
+    margin-bottom: 0px;
+}
+input[type=text], input[type=email] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    /* border: none; */
+    background: #ffffff;
+    border-radius: 0%;
+    font-family: 'Playfair Display', serif;
+}
+input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+#mes{
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+#but2{
+    width: 100%;
+    padding: 10px;
+    font-family: 'Playfair Display', serif;
+    font-size: 23px;
+    border-radius: 1px;
+    border: 1px solid black;
+} 
+#but2:hover{
+    background-color: rgba(255, 102, 51, 0.548);
+}
