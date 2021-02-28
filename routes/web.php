@@ -34,3 +34,8 @@ Route::get('post/create', function(){
         'body' => 'Goodbye'
      ]);
 });
+
+Route::get('post', function(){
+    $post = post::find(1);
+    return $post->title;
+});
