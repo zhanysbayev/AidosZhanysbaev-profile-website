@@ -6,6 +6,8 @@ use Illuminate\Support\Facades\DB;
 use App\Models\post;
 
 use App\Http\Controllers\BlogController;
+
+use App\Http\Controllers\ClientController;
 /*
 
 |--------------------------------------------------------------------------
@@ -45,3 +47,10 @@ return view('blog.create');
 Route::post('blog/create',[BlogController::class, 'store'])->name('add-blog');
 
 Route::get('blog/{id}', [BlogController::class, 'get_blog' ]);
+
+Route::get('client',[ClientController::class, 'index']);
+Route::get('client/create', function(){
+    return view('client.create');
+});
+
+Route::post('client/create',[ClientController::class, 'store'])->name('add-client');
