@@ -8,6 +8,8 @@ use App\Models\post;
 use App\Http\Controllers\BlogController;
 
 use App\Http\Controllers\ClientController;
+
+use App\Http\Controllers\MailController;
 /*
 
 |--------------------------------------------------------------------------
@@ -54,3 +56,5 @@ Route::get('client/create', function(){
 });
 
 Route::post('client/create',[ClientController::class, 'store'])->name('add-client');
+
+Route::get('mail/send', [MailController::class, 'send']);
