@@ -58,3 +58,16 @@ Route::get('client/create', function(){
 Route::post('client/create',[ClientController::class, 'store'])->name('add-client');
 
 Route::get('mail/send', [MailController::class, 'send']);
+
+Route::get('home/{lang}', function($lang){
+    App::setlocale($lang);
+    return view('home');
+});
+Route::get('about/{lang}', function($lang){
+    App::setlocale($lang);
+    return view('about');
+});
+Route::get('contact/{lang}', function($lang){
+    App::setlocale($lang);
+    return view('contact');
+});

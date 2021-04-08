@@ -13,29 +13,29 @@
 <body>
     <div class="full">
         <div class="header">
-            <a href="{{ route('home') }}" id="home">Home</a>
-            <a href="{{ route('about') }}" id="about">About me</a>
-            <a href="{{ route('contact') }}" id="contact">Contacts</a>
+            <a href="{{ route('home') }}" id="home">{{__('lang.home')}}</a>
+            <a href="{{ route('about') }}" id="about">{{__('lang.about')}}</a>
+            <a href="{{ route('contact') }}" id="contact">{{__('lang.contacts')}}</a>
         </div>
         <div class="contact" id="contact">
             <div class="hero_img">
                 <form class="needs-validation">
-                <h1 id="shh2">Hi!</h1>
-                <p id="shp"> If you have some questions you can send me message </p>
+                <h1 id="shh2">{{__('lang.hi')}}</h1>
+                <p id="shp"> {{__('lang.qs')}} </p>
                 <div class="form-group">
-                     <label id="labn" for="name">Name</label><br> 
-                     <input id="name" type="text" class="form-control" name = "name" placeholder="Enter your name" required>
+                     <label id="labn" for="name">{{__('lang.namer')}}</label><br> 
+                     <input id="name" type="text" class="form-control" name = "name" placeholder="{{__('lang.enteryourname')}}" required>
                 </div>
                 <div class="form-group">
-                     <label id="labe" for="email">Email</label><br> 
-                     <input id="email" type="email" class="form-control" name = "email" placeholder="Enter your email" required >
+                     <label id="labe" for="email">{{__('lang.email')}}</label><br> 
+                     <input id="email" type="email" class="form-control" name = "email" placeholder="{{__('lang.enteryouremail')}}" required >
                 </div>
                 <div class="form-group">
-                    <label id="labm" for="mes">Message</label> 
-                    <input id="mes" type="text" class="form-control" name = "message" placeholder="Enter your message" required>
+                    <label id="labm" for="mes">{{__('lang.message')}}</label> 
+                    <input id="mes" type="text" class="form-control" name = "message" placeholder="{{__('lang.enteryourmessage')}}" required>
                 </div>
                 <div class="end">
-                     <button id="but2" class="btn">Send Message</button> 
+                     <button id="but2" class="btn">{{__('lang.sendmessage')}}</button> 
                 </div>
               </form>
             </div>
